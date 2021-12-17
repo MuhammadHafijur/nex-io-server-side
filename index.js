@@ -162,14 +162,6 @@ async function run(){
 
 run().catch(console.dir);
 
-// client.connect(err => {
-//     // const collection = client.db("test").collection("devices");
-//     console.log('database connected')
-
-//     // perform actions on the collection object
-//     // client.close();
-//   });
-
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
